@@ -11,7 +11,7 @@ from pydub import AudioSegment
 from pymediainfo import MediaInfo
 
 os.environ[
-    "GOOGLE_APPLICATION_CREDENTIALS"] = '/home/wesley/PycharmProjects/transcriber/transcribe-269708-237bad26eec2.json'
+    "GOOGLE_APPLICATION_CREDENTIALS"] = 'path/to/GOOGLE_APPLICATION_CREDENTIALS.json'
 filepath = 'audio/'
 output_filepath = "transcripts/"
 bucketname = 'revaudiofiles'
